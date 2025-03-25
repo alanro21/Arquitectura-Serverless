@@ -43,20 +43,18 @@ Son dos tipos de servicios que utilizan la computacion sin servidor:
 * FaaS(Functions as a Service - Funcion como Servicio): El modelo se basa en la tecnologias y arquitecuras informaticas sin servidore que permiten a los desarrolladores de software 
   implementar facilmente aplicaciones en la nube sin tener que administar servidores.
 
-* BaaS(Backend as a Service - Backend como Servicio): Es un modelo de servicio en la nube en la que los desrrolladores subcontratan todos los aspectos detras de escena de una aplicacion web o movil para que solo tenga que escribir y mantener la interfaz. Los proveedores de BaaS proporcionan software prescrito para actividades como:
-
-1. Autenticacion de usuario.
-2. Administracion de base de datos.
-3. Actualizacion remota y Notifiacionses push.
-4. Almacenamiento y alojamiento en la nube.
+* BaaS(Backend as a Service - Backend como Servicio): Es un modelo de servicio en la nube en la que los desrrolladores subcontratan todos los aspectos detras de escena de una aplicacion web o movil para que solo tenga que escribir y mantener la interfaz. Los proveedores de BaaS proporcionan software prescrito para actividades como: Autenticacion de usuario, Administracion de base de datos, Actualizacion remota y Notifiacionses push, Almacenamiento y alojamiento en la nube.
 
    
 ## Usos mas comunes
 La tecnologia serverless es ideal para microservicios, backend moviles, procesamiento de eventos y flujo de datos. Su uso mas comunes son:
+
 1. Aplicaciones web o API backends: Esto de orienta a la ejecucion de eventos, como por ejemplo en una aplicacion de tareas donde los usuarios pueden crear, actualizar ver y eliminar elementos, por medio de funcion que puede convertirse en un endpoint HTTP.
+
 2. Procesamiento de datos: Para trabajar con datos estructurados de texto, audio, imagen y video.
 
 ## Proveedores de Arquitectura Serverless 
+
 AWS Lambda:
 Google Cloud:
 Azure Functions
