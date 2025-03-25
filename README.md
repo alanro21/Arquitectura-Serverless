@@ -20,6 +20,18 @@ servicios de colas, alertas de monitoreo, carga de archivos y eventos programado
 ## Ventajas y Desventajas
 Ventajas: 
 * No hay necesidad de administrar infrastructura: Esto quiere decir que no hay necesidad de administrar servidores, manetener los sistemas opertativos o instalar y actualizar software,ya que todo se responsabilidad fel proveedor de la nube.
+* Escalabilidad: Se escala de forma automatica y mantiene un equilibrio en cuanto a recursos, esto indica que se adapta a las necesidades del cliente.
+* Ahorro de costos: Solo se paga lo que se usa, en este caso se paga por el tiempo que dura la ejecucion, en lugar de pagar por una instancia.
+* Alta disponibilidad y tolerancia a falla: Sin necesidad de hacer algun proceso para replicar datos en diferentes zonas disponibles, ofrece una alta disponibilidad y tolerancia a 
+  fallas de forma predeterminada. 
+
+Desventajas:
+* Dependencia de Proveedores: Puede implicar riesgo asociada con confiar en un unico proveedor, ya que puede haber cambios en servicios, precios o fallas del proveedor donde puede 
+  impactar negativamente en la operacion.
+* Menos control sobre la infraestructura: Los desarrolladores tienen limitado control sobre los servidores. Esto puede restringir la personalizacion y optimizacion de configuraciones 
+  especificas.
+* Procupaciones de Seguridad: Preocipacion por la privacidad de los datos que se alojan en la nube de terceros. Esto aumenta el reisgo de seguridad cerbernetica.
+ 
 ## ¿Que son las Faas y Baas dentro de la Arquitectura Serverless?
 Text3
 ## Usos mas comunes
