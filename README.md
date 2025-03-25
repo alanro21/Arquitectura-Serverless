@@ -4,7 +4,7 @@
 En este espacio les contaré qué es la Arquitectura Serverless, sus características principales y cómo se aplicó en nuestro trabajo de investigación. Exploraremos sus ventajas, casos de uso y las conclusiones obtenidas a partir de nuestra experiencia.
 
 ## Indice de contenidos
-### En este apartado, se visualizara la estructura del tema a abordar. Este indice servira como guia para navegar en por los distntos apartado de la explicacion.
+En este apartado, se visualizara la estructura del tema a abordar. Este indice servira como guia para navegar en por los distntos apartado de la explicacion.
 
 1. [¿Que es la Arquitectura Serverless?](#¿Que-es-la-Arquitectura-Serverless?) 
 2. [Ventajas y Desventajas](#Ventajas-y-Desventajas) 
