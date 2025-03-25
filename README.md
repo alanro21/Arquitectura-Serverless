@@ -90,7 +90,7 @@ Text6
 
 ##Glosario
 
-* Solicitudes HTTP:
+* ###Solicitudes HTTP:
 * Endpoint HTTP: 
 * S3: 
 * DynamoDB: 
