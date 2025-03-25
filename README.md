@@ -1,6 +1,6 @@
 # Arquitectura-Serverless
 
-![Descripcion de la imagen](imagen/Fondo.png)
+<img src="imagen/Fondo.png" width="200">
 
 ## Introduccion
 En este espacio les contaré qué es la Arquitectura Serverless, sus características principales y cómo se aplicó en nuestro trabajo de investigación. Exploraremos sus ventajas, casos de uso y las conclusiones obtenidas a partir de nuestra experiencia.
