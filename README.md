@@ -18,7 +18,9 @@ La Aquitectura Serverless es una computacion sin servidore (Serverless) un model
 un frgamento de codigo. El codigo se ejecuta dentro de contenedores sin estado puede ser activados por una variedad de eventos que incluyen solicitudes HTTP, base de datos,
 servicios de colas, alertas de monitoreo, carga de archivos y eventos programados. El codigo que se envia al proveedor en la nube para la ejecucion es generalmete en forma de funcion.
 ## Ventajas y Desventajas
-Text2
+Ventajas: 
+    * No hay necesidad de administrar infrastructura: Esto quiere decir que no hay necesidad de administrar servidores, manetener los sistemas opertativos o instalar y actualizar 
+      software,ya que todo se responsabilidad fel proveedor de la nube.
 ## ¿Que son las Faas y Baas dentro de la Arquitectura Serverless?
 Text3
 ## Usos mas comunes
