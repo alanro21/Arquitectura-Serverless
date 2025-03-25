@@ -21,7 +21,7 @@ En este apartado, se visualizara la estructura del tema a abordar. Este indice s
 
 ## ¿Que es la Arquitectura Serverless?
 La Aquitectura Serverless es una computacion sin servidore (Serverless) un modelo de ejecucion en el que el proveedor en la nube es el responsable de ejecutar
-un frgamento de codigo. El codigo se ejecuta dentro de contenedores sin estado puede ser activados por una variedad de eventos que incluyen solicitudes HTTP [solicitudes HTTP](#Solicitudes-HTTP), base de datos,
+un frgamento de codigo. El codigo se ejecuta dentro de contenedores sin estado puede ser activados por una variedad de eventos que incluyen solicitudes HTTP [solicitudes HTTP](#Glosario), base de datos,
 servicios de colas, alertas de monitoreo, carga de archivos y eventos programados. El codigo que se envia al proveedor en la nube para la ejecucion es generalmete en forma de funcion.
 
 ## Caracteristicas Principales
@@ -57,7 +57,7 @@ Son dos tipos de servicios que utilizan la computacion sin servidor:
 La tecnologia serverless es ideal para microservicios, backend moviles, procesamiento de eventos y flujo de datos. Su uso mas comunes son:
 
 1. Aplicaciones web o API backends: Esta orientado a la ejecucion de eventos, como por ejemplo en una aplicacion de tareas donde los usuarios pueden crear, actualizar ver y eliminar 
-   elementos, por medio de funcion que puede convertirse en un endpoint HTTP [endpoint HTTP](#Endpoint-HTTP).
+   elementos, por medio de funcion que puede convertirse en un endpoint HTTP [endpoint HTTP](#Glosario).
 
 2. Procesamiento de datos: Para trabajar con datos estructurados de texto, audio, imagen y video.
 
