@@ -44,6 +44,7 @@ Son dos tipos de servicios que utilizan la computacion sin servidor:
   implementar facilmente aplicaciones en la nube sin tener que administar servidores.
 
 * BaaS(Backend as a Service - Backend como Servicio): Es un modelo de servicio en la nube en la que los desrrolladores subcontratan todos los aspectos detras de escena de una aplicacion web o movil para que solo tenga que escribir y mantener la interfaz. Los proveedores de BaaS proporcionan software prescrito para actividades como:
+
 1. Autenticacion de usuario.
 2. Administracion de base de datos.
 3. Actualizacion remota y Notifiacionses push.
