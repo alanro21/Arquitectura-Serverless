@@ -88,9 +88,9 @@ Los siguientes proveedores que utilizan Arquitectura Serverless son:
 ## Aplicación en el proyecto de investigacion.
 Text6
 
-##Glosario
+## Glosario
 
-###* Solicitudes HTTP:
+* Solicitudes HTTP:
 * Endpoint HTTP: 
 * S3: 
 * DynamoDB: 
