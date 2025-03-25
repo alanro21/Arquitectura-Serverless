@@ -21,7 +21,7 @@ En este apartado, se visualizara la estructura del tema a abordar. Este indice s
 
 ## ¿Que es la Arquitectura Serverless?
 La Aquitectura Serverless es una computacion sin servidore (Serverless) un modelo de ejecucion en el que el proveedor en la nube es el responsable de ejecutar
-un frgamento de codigo. El codigo se ejecuta dentro de contenedores sin estado puede ser activados por una variedad de eventos que incluyen solicitudes HTTP, base de datos,
+un frgamento de codigo. El codigo se ejecuta dentro de contenedores sin estado puede ser activados por una variedad de eventos que incluyen solicitudes HTTP [solicitudes HTTP](#Solicitudes-HTTP), base de datos,
 servicios de colas, alertas de monitoreo, carga de archivos y eventos programados. El codigo que se envia al proveedor en la nube para la ejecucion es generalmete en forma de funcion.
 
 ## Caracteristicas Principales
@@ -57,7 +57,7 @@ Son dos tipos de servicios que utilizan la computacion sin servidor:
 La tecnologia serverless es ideal para microservicios, backend moviles, procesamiento de eventos y flujo de datos. Su uso mas comunes son:
 
 1. Aplicaciones web o API backends: Esta orientado a la ejecucion de eventos, como por ejemplo en una aplicacion de tareas donde los usuarios pueden crear, actualizar ver y eliminar 
-   elementos, por medio de funcion que puede convertirse en un endpoint HTTP.
+   elementos, por medio de funcion que puede convertirse en un endpoint HTTP [endpoint HTTP](#Endpoint-HTTP).
 
 2. Procesamiento de datos: Para trabajar con datos estructurados de texto, audio, imagen y video.
 
@@ -79,7 +79,11 @@ Los siguientes proveedores que utilizan Arquitectura Serverless son:
   soporta varios lenguajes de programación, incluyendo C#, JavaScript, Python, Java, TypeScript y PowerShell, funciona de manera nativa con otros servicios como Azure Storage, Service 
   Bus, Event Hubs y Logic Apps, facilitando arquitecturas serverless completas y permite desarrollar y probar funciones en entornos locales antes de desplegarlas en la nube.
 
-* IBM Openwhisk
+* IBM Openwhisk: Código abierto desarrollada por IBM. OpenWhisk se basa en Apache OpenWhisk y está diseñado para integrarse con múltiples servicios en la nube, facilitando el 
+  desarrollo de aplicaciones escalables y event-driven, tambien permite desencadenar la ejecución de funciones en respuesta a eventos provenientes de diversas fuentes, como bases de 
+  datos, colas de mensajes o peticiones HTTP, al estar basado en Apache OpenWhisk, los desarrolladores pueden personalizar y extender sus funcionalidades según sus necesidades. 
+  Soporta lenguajes como JavaScript (Node.js), Python, Swift, PHP, Ruby y Java, brindando flexibilidad a los desarrolladores y se conecta con servicios como IBM Cloud Functions, IBM 
+  Watson, IBM Cloudant y otras soluciones en la nube.  
 
 ## Aplicación en el proyecto de investigacion.
 Text6
@@ -98,4 +102,9 @@ Text6
 * Cloud Storage: 
 * Firestore:
 * Pub/Sub:
+* OpenWhisk: 
+* Event-driven: 
+* IBM Cloud Functions:
+* IBM Watson:
+* IBM Cloudant:
 
