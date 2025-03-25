@@ -1,7 +1,7 @@
 # Arquitectura-Serverless
 
 <p align="center">
-  <img src="assets/logo.png" alt="Descripción de la imagen" width="200">
+  <img src="imagen/Fondo.png" width="200">
 </p>
 
 ## Introduccion
