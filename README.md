@@ -7,7 +7,7 @@
 ### En este apartado, se visualizara la estructura del tema a abordar. Este indice servira como guia para navegar en por los distntos apartado de la explicacion.
 
 1. [¿Que es la Arquitectura Serverless?](#¿Que-es-la-Arquitectura-Serverless?) 
-2. Ventajas y Desventaja 
+2. [Ventajas y Desventajas](#Ventajas-y-Desventajas) 
 3. ¿Que son las Faas y Baas dentro de la Arquitectura Serverless?
 4. Usos mas Comunes.
 5. Proveedores de Arquitectura Serverless.
@@ -15,7 +15,7 @@
 
 ## ¿Que es la Arquitectura Serverless?
 ### Text1
-## Ventajas y Desventaja
+## Ventajas y Desventajas
 ### Text2
 ## ¿Que son las Faas y Baas dentro de la Arquitectura Serverless?
 ### Text3
