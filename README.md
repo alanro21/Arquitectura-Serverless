@@ -1,6 +1,6 @@
 # Arquitectura-Serverless
 
-<div style="text-aling: center;>
+<div style="text-aling: center;">
   <img src="imagen/Fondo.png" width="200">
 </div>
 
