@@ -25,9 +25,17 @@ un frgamento de codigo. El codigo se ejecuta dentro de contenedores sin estado p
 servicios de colas, alertas de monitoreo, carga de archivos y eventos programados. El codigo que se envia al proveedor en la nube para la ejecucion es generalmete en forma de funcion.
 
 ## Caracteristicas Principales
-text2
+Las caracteristica principales de la Arquitectura Serverless son las siguiente:
+
+* Sin gestion de servidores: No se necesita por parte del desarrollador configurar, administrar el servidor. Es manejada automaticamente por el proveedor en la nube.
+* Ejecucion basada en evento: La funciones son eventos que en formas de peticiones HTTP, cambios en base de datos, carga de archivos en la nube o eventos de mensajeria.
+* Pago por uso (modelo FaaS - Functions as a Service): Solo se cobra por el tiempo de ejecucion y la cantidad de inovaciones, lo que reduce costo en comparacion con los servidores 
+  tradicionales.
+* Compatibilidad con multiples lenguajes: Los principales proveedores ofrecen soporte para diversos lenguajes, como Python, JavaScript (Node.js), Java, Go y más.
+* Menos consumos de recursos: Al no necesitar servidores en ejecución constante, Serverless reduce el consumo de recursos cuando no hay actividad. 
 
 ## Ventajas y Desventajas
+
 Ventajas: 
 * No hay necesidad de administrar infrastructura: Esto quiere decir que no hay necesidad de administrar servidores, manetener los sistemas opertativos o instalar y actualizar software, 
   ya que todo es responsabilidad del proveedor de la nube.
