@@ -16,7 +16,7 @@ En este apartado, se visualizará la estructura del tema a abordar. Este índice
 4. [¿Qué son las FaaS y BaaS dentro de la Arquitectura Serverless?](#Qué-son-las-FaaS-y-BaaS-dentro-de-la-Arquitectura-Serverless)
 5. [Usos más comunes](#Usos-mas-comunes)
 6. [Proveedores de Arquitectura Serverless](#Proveedores-de-Arquitectura-Serverless)
-7. [Aplicacion en el proyecto de investigacion](#Aplicacion-en-el-proyecto-de-investigacion)
+7. [Aplicación en el proyecto de investigacion](#Aplicación-en-el-proyecto-de-investigacion)
 8. [Glosario](#Glosario)
 
 ## ¿Qué es la Arquitectura Serverless?
@@ -24,7 +24,7 @@ La Aquitectura Serverless es una computacion sin servidore (Serverless) un model
 un frgamento de codigo. El codigo se ejecuta dentro de contenedores sin estado puede ser activados por una variedad de eventos que incluyen solicitudes HTTP [solicitudes HTTP](#Glosario), base de datos,
 servicios de colas, alertas de monitoreo, carga de archivos y eventos programados. El codigo que se envia al proveedor en la nube para la ejecucion es generalmete en forma de funcion.
 
-## Caracteristicas Principales
+## Características principales
 Las caracteristica principales de la Arquitectura Serverless son las siguiente:
 
 * Sin gestion de servidores: No se necesita por parte del desarrollador configurar, administrar el servidor. Es manejada automaticamente por el proveedor en la nube.
@@ -93,7 +93,7 @@ Los siguientes proveedores que utilizan Arquitectura Serverless son:
   Soporta lenguajes como JavaScript (Node.js), Python, Swift, PHP, Ruby y Java, brindando flexibilidad a los desarrolladores y se conecta con servicios como IBM Cloud Functions, IBM 
   Watson, IBM Cloudant y otras soluciones en la nube.  
 
-## Aplicación en el proyecto de investigacion.
+## Aplicación en el proyecto de investigacion
 Este proyecto de investigacion, fue hecho en la Universidad Nacional Del Oeste, juntos con mis compañeros Leones Nicolas, Cruz Brian, Juarez Alex Contreras, en la carrera Licenciatura en Informatica, materia Interfaz de Usuario y Tecnologia Web. El proveedor para realizar este proyecto de investigacion es Google Cloud, ya que una de las funciones que nos daba facilmente es poder trabajar en grupo de forma eficiente.
 
 Para la creacion de la aplicacion web usamos las siguientes tecnologias:
