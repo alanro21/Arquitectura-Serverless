@@ -104,8 +104,16 @@ Para la creacion de la aplicacion web usamos las siguientes tecnologias:
   <img src="imagen/InterfazGrafica.png" width="500">
 </p>
 
-2. Desarrollo de funciones: Para desarrollar las funciones se utilizo el lenguaje Python y dentro de la misma la siguiente bibliotecas
-   - Flask: Para renderizar 
+2. Desarrollo de funciones: Para desarrollar las funciones se utilizo el lenguaje Python y dentro de la misma la siguiente bibliotecas:
+   - Flask: Para renderizar a cada plantilla (acceso a cada parte de la pagina web) y manejo de rutas.
+   - Requets: Para hacer llamada (solicitudes) HTTP a servidores externos, en este caso a Google Cloud.
+   - os: Para construir la ruta completa de los archivos staticos, para que se pueda visualizar la interfaz heca en CSS.
+   - SQLAlchemy: Para gestionar la interacion con la base de datos, creada localmente con PgAdmin.
+
+  <p align="center">
+  <img src="imagen/InterfazGrafica.png" width="500">
+  <img src="imagen/InterfazGrafica.png" width="500">
+</p>
 
 ## Glosario
 
