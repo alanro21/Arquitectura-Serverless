@@ -101,7 +101,7 @@ Para la creacion de la aplicacion web usamos las siguientes tecnologias:
 1. Cracion de la interfaz grafica: Usamos HTML para estructura cada sector de la pagina, definiendo los elemetos basicos y su disposicion. Para la parte de estilo a cada parte de la pagina usamos CSS para definir los colores, tipografia, margenes y la diposicion visual de los elementos.
 
  <p align="center">
-  <img src="imagen/Fondo.png" width="500">
+  <img src="imagen/InterfazGrafica.png" width="500">
 </p>
 
 ## Glosario
