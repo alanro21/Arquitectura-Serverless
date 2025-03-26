@@ -1,13 +1,17 @@
 # Arquitectura-Serverless
 
+<p align="center">
+  <img src="imagen/Fondo.png" width="500">
+</p>
+
 ## Introduccion
 En este espacio les contaré qué es la Arquitectura Serverless, sus características principales y cómo se aplicó en nuestro trabajo de investigación. Exploraremos sus ventajas, casos de uso y las conclusiones obtenidas a partir de nuestra experiencia.
 
 ## Indice de contenidos
 En este apartado, se visualizara la estructura del tema a abordar. Este indice servira como guia para navegar en por los distintos apartado de la explicacion.
 
-1. [¿Que es la Arquitectura Serverless?](#¿Que-es-la-Arquitectura-Serverless?)
-2. [Características principales](#Características-principales) 
+1. [¿Que es la Arquitectura Serverless?](https://github.com/alanro21/Arquitectura-Serverless/blob/main/README.md#que-es-la-arquitectura-serverless)
+2. [Características principales](#Caracteristicas-Principales) 
 3. [Ventajas y Desventajas](#Ventajas-y-Desventajas) 
 4. [¿Que son las FaaS y BaaS dentro de la Arquitectura Serverless](#¿Que-son-las-Faas-y-Baas-dentro-de-la-Arquitectura-Serverless)
 5. [Usos mas comunes](#Usos-mas-comunes)
@@ -17,13 +21,21 @@ En este apartado, se visualizara la estructura del tema a abordar. Este indice s
 
 ## ¿Que es la Arquitectura Serverless?
 La Aquitectura Serverless es una computacion sin servidore (Serverless) un modelo de ejecucion en el que el proveedor en la nube es el responsable de ejecutar
-un frgamento de codigo. El codigo se ejecuta dentro de contenedores sin estado puede ser activados por una variedad de eventos que incluyen solicitudes HTTP, base de datos,
+un frgamento de codigo. El codigo se ejecuta dentro de contenedores sin estado puede ser activados por una variedad de eventos que incluyen solicitudes HTTP [solicitudes HTTP](#Glosario), base de datos,
 servicios de colas, alertas de monitoreo, carga de archivos y eventos programados. El codigo que se envia al proveedor en la nube para la ejecucion es generalmete en forma de funcion.
 
 ## Caracteristicas Principales
-text2
+Las caracteristica principales de la Arquitectura Serverless son las siguiente:
+
+* Sin gestion de servidores: No se necesita por parte del desarrollador configurar, administrar el servidor. Es manejada automaticamente por el proveedor en la nube.
+* Ejecucion basada en evento: La funciones son eventos que en formas de peticiones HTTP, cambios en base de datos, carga de archivos en la nube o eventos de mensajeria.
+* Pago por uso (modelo FaaS - Functions as a Service): Solo se cobra por el tiempo de ejecucion y la cantidad de inovaciones, lo que reduce costo en comparacion con los servidores 
+  tradicionales.
+* Compatibilidad con multiples lenguajes: Los principales proveedores ofrecen soporte para diversos lenguajes, como Python, JavaScript (Node.js), Java, Go y más.
+* Menos consumos de recursos: Al no necesitar servidores en ejecución constante, Serverless reduce el consumo de recursos cuando no hay actividad. 
 
 ## Ventajas y Desventajas
+
 Ventajas: 
 * No hay necesidad de administrar infrastructura: Esto quiere decir que no hay necesidad de administrar servidores, manetener los sistemas opertativos o instalar y actualizar software, 
   ya que todo es responsabilidad del proveedor de la nube.
@@ -53,7 +65,7 @@ Son dos tipos de servicios que utilizan la computacion sin servidor:
 La tecnologia serverless es ideal para microservicios, backend moviles, procesamiento de eventos y flujo de datos. Su uso mas comunes son:
 
 1. Aplicaciones web o API backends: Esta orientado a la ejecucion de eventos, como por ejemplo en una aplicacion de tareas donde los usuarios pueden crear, actualizar ver y eliminar 
-   elementos, por medio de funcion que puede convertirse en un endpoint HTTP.
+   elementos, por medio de funcion que puede convertirse en un endpoint HTTP [endpoint HTTP](#Glosario).
 
 2. Procesamiento de datos: Para trabajar con datos estructurados de texto, audio, imagen y video.
 
@@ -75,12 +87,16 @@ Los siguientes proveedores que utilizan Arquitectura Serverless son:
   soporta varios lenguajes de programación, incluyendo C#, JavaScript, Python, Java, TypeScript y PowerShell, funciona de manera nativa con otros servicios como Azure Storage, Service 
   Bus, Event Hubs y Logic Apps, facilitando arquitecturas serverless completas y permite desarrollar y probar funciones en entornos locales antes de desplegarlas en la nube.
 
-* IBM Openwhisk
+* IBM Openwhisk: Código abierto desarrollada por IBM. OpenWhisk se basa en Apache OpenWhisk y está diseñado para integrarse con múltiples servicios en la nube, facilitando el 
+  desarrollo de aplicaciones escalables y event-driven, tambien permite desencadenar la ejecución de funciones en respuesta a eventos provenientes de diversas fuentes, como bases de 
+  datos, colas de mensajes o peticiones HTTP, al estar basado en Apache OpenWhisk, los desarrolladores pueden personalizar y extender sus funcionalidades según sus necesidades. 
+  Soporta lenguajes como JavaScript (Node.js), Python, Swift, PHP, Ruby y Java, brindando flexibilidad a los desarrolladores y se conecta con servicios como IBM Cloud Functions, IBM 
+  Watson, IBM Cloudant y otras soluciones en la nube.  
 
 ## Aplicación en el proyecto de investigacion.
 Text6
 
-##Glosario
+## Glosario
 
 * Solicitudes HTTP:
 * Endpoint HTTP: 
@@ -94,4 +110,9 @@ Text6
 * Cloud Storage: 
 * Firestore:
 * Pub/Sub:
+* OpenWhisk: 
+* Event-driven: 
+* IBM Cloud Functions:
+* IBM Watson:
+* IBM Cloudant:
 
