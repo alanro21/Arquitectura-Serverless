@@ -94,7 +94,15 @@ Los siguientes proveedores que utilizan Arquitectura Serverless son:
   Watson, IBM Cloudant y otras soluciones en la nube.  
 
 ## Aplicación en el proyecto de investigacion.
-Text6
+Este proyecto de investigacion, fue hecho en la Universidad Nacional Del Oeste, juntos con mis compañeros Leones Nicolas, Cruz Brian, Juarez Alex Contreras, en la carrera Licenciatura en Informatica, materia Interfaz de Usuario y Tecnologia Web.
+
+Para la creacion de la aplicacion web usamos las siguientes tecnologias:
+
+1. Cracion de la interfaz grafica: Usamos HTML para estructura cada sector de la pagina, definiendo los elemetos basicos y su disposicion. Para la parte de estilo a cada parte de la pagina usamos CSS para definir los colores, tipografia, margenes y la diposicion visual de los elementos.
+
+ <p align="center">
+  <img src="imagen/Fondo.png" width="500">
+</p>
 
 ## Glosario
 
