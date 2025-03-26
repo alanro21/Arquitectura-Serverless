@@ -123,8 +123,8 @@ Para la creación de la aplicación web usamos las siguientes tecnologías:
   <img src="imagen/CloudFunctions.png" width="600">
 </p>
 
-Conclusion y posibles mejoras :
- * Si bien el acercamiento a las tecnologías cloud fue más duro de lo que pensábamos nos queda la experiencia de ya tener un primer acercamiento con estas, de estudiarlas y si bien 
+Conclusion grupal y posibles mejoras:
+ * Si bien el acercamiento a las tecnologías cloud fue más duro de lo que pensábamos, nos queda la experiencia de ya tener un primer acercamiento con estas de estudiarlas y si bien 
    hicimos algo simple, utilizarlas. Por lo que si en el futuro tenemos que utilizar nuevamente estas tecnologías (y de seguro sucederá), ya
    contaremos con un camino recorrido, el cual nos dio una pequeña pero valiosa experiencia en el mundo cloud.
    
