@@ -72,7 +72,7 @@ La tecnología serverless es ideal para microservicios, backend móviles, proces
 
 Los siguientes proveedores que utilizan Arquitectura Serverless son: 
 
-* AWS Lambda: Permite ejecutar código automáticamente en respuesta a eventos generados por otros servicios de AWS (como S3, DynamoDB o API Gateway) o eventos personalizados, se cobra 
+* AWS Lambda: Permite ejecutar código automáticamente en respuesta a eventos generados por otros servicios de AWS (como [S3](#Glosario), [DynamoDB](#Glosario) o [API Gateway](#Glosario)) o eventos personalizados, se cobra 
   únicamente por el tiempo de ejecución y la cantidad de invocaciones, eliminando costos fijos asociados a servidores tradicionales, admite varios lenguajes de programación, como
   Python, Node.js, Java, Go y Ruby, entre otros, funciona de manera eficiente con servicios como S3, DynamoDB, API Gateway, SNS y Kinesis, permitiendo construir arquitecturas altamente 
   distribuidas y escalables.
