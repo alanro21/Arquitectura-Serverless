@@ -1,7 +1,7 @@
 # Arquitectura Serverless
 
 <p align="center">
-  <img src="imagen/InterfazGrafica.png" width="500">
+  <img src="imagen/Fondoimagen" width="500">
 </p>
 
 ## Introducción
