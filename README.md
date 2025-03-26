@@ -111,8 +111,8 @@ Para la creacion de la aplicacion web usamos las siguientes tecnologias:
    - SQLAlchemy: Para gestionar la interacion con la base de datos, creada localmente con PgAdmin.
 
   <p align="center">
-  <img src="imagen/InterfazGrafica.png" width="500">
-  <img src="imagen/InterfazGrafica.png" width="500">
+  <img src="imagen/CodigoPython.png" width="450" style="display: inline-block; margin-right: 30px;">
+  <img src="imagen/Basededatos.png" width="450" style="display: inline-block;">
 </p>
 
 ## Glosario
