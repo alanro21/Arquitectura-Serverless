@@ -94,7 +94,7 @@ Los siguientes proveedores que utilizan Arquitectura Serverless son:
   Watson, IBM Cloudant y otras soluciones en la nube.  
 
 ## Aplicación en el proyecto de investigacion.
-Este proyecto de investigacion, fue hecho en la Universidad Nacional Del Oeste, juntos con mis compañeros Leones Nicolas, Cruz Brian, Juarez Alex Contreras, en la carrera Licenciatura en Informatica, materia Interfaz de Usuario y Tecnologia Web.
+Este proyecto de investigacion, fue hecho en la Universidad Nacional Del Oeste, juntos con mis compañeros Leones Nicolas, Cruz Brian, Juarez Alex Contreras, en la carrera Licenciatura en Informatica, materia Interfaz de Usuario y Tecnologia Web. El proveedor para realizar este proyecto de investigacion es Google Cloud, ya que una de las funciones que nos daba facilmente es poder trabajar en grupo de forma eficiente.
 
 Para la creacion de la aplicacion web usamos las siguientes tecnologias:
 
@@ -103,6 +103,9 @@ Para la creacion de la aplicacion web usamos las siguientes tecnologias:
  <p align="center">
   <img src="imagen/InterfazGrafica.png" width="500">
 </p>
+
+2. Desarrollo de funciones: Para desarrollar las funciones se utilizo el lenguaje Python y dentro de la misma la siguiente bibliotecas
+   - Flask: Para renderizar 
 
 ## Glosario
 
