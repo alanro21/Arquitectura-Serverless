@@ -17,7 +17,8 @@ En este apartado, se visualizará la estructura del tema a abordar. Este índice
 5. [Usos más comunes](#Usos-mas-comunes)
 6. [Proveedores de Arquitectura Serverless](#Proveedores-de-Arquitectura-Serverless)
 7. [Aplicación en el proyecto de investigacion](#Aplicación-en-el-proyecto-de-investigacion)
-8. [Glosario](#Glosario)
+8. [Links Importantes](#Links-Importantes)
+9. [Glosario](#Glosario)
 
 ## ¿Qué es la Arquitectura Serverless?
 La Arquitectura Serverless es una computación sin servidores (Serverless), un modelo de ejecución en el que el proveedor en la nube es el responsable de ejecutar un fragmento de código. El código se ejecuta dentro de contenedores sin estado y puede ser activado por una variedad de eventos que incluyen [solicitudes HTTP](#Glosario), bases de datos, servicios de colas, alertas de monitoreo, carga de archivos y eventos programados. El código que se envía al proveedor en la nube para la ejecución es generalmente en forma de función.
@@ -123,11 +124,11 @@ Para la creación de la aplicación web usamos las siguientes tecnologías:
   <img src="imagen/CloudFunctions.png" width="600">
 </p>
 
-Video demostrativo:
+Links Importantes:
 
- - [🎥 Ver video de demostración](https://youtu.be/_6IrMyfibI0)
+ - 🎥 [ Ver video de demostración del proyecto](https://youtu.be/_6IrMyfibI0)
 
-
+ - 📄 [Carpeta de desalojo del código](https://www.ejemplo.com/docs)
 
 ## Glosario
 
