@@ -115,6 +115,12 @@ Para la creacion de la aplicacion web usamos las siguientes tecnologias:
   <img src="imagen/Basededatos.png" width="450" style="display: inline-block;">
 </p>
 
+3. Uso de la Arquitectura Serverless (Google Cloud): Utilizamos de Google Cloud especificamente Cloud Functions, para actuar como intermediario en la visualizacion de acceso (registros en la pagina web) y en la supervision de los datos se almacena en la base de datos. Para cumplir con esta funcion, Cloud Functions proporciona un URL que se integra en el codigo Pyhon. Durante la ejecucion, cuando se realiza una accion de registro, se envia un mensaje HTTP a Cloud Functions, respondiendo a este evento y resgistrandolo para poder visualizar que evento se realizo. 
+
+  <p align="center">
+  <img src="imagen/InterfazGrafica.png" width="500">
+</p>
+
 ## Glosario
 
 * Solicitudes HTTP:
