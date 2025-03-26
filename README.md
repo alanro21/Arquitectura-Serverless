@@ -123,7 +123,13 @@ Para la creacion de la aplicacion web usamos las siguientes tecnologias:
 
 Video Demostrativo:
 
- [🎥 Ver video de demostración](https://youtu.be/_6IrMyfibI0)
+ [🎥 Ver video de demostración](https://youtu.be/_6IrMyfibI0) 
+<p align="center">
+  <a href="https://youtu.be/_6IrMyfibI0">
+    <img src="https://img.youtube.com/vi/TuVideoID/0.jpg" alt="Ver en YouTube" width="400">
+  </a>
+</p>
+
 
 
 ## Glosario
