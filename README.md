@@ -10,7 +10,7 @@ En este espacio les contaré qué es la Arquitectura Serverless, sus caracterís
 ## Indice de contenidos
 En este apartado, se visualizara la estructura del tema a abordar. Este indice servira como guia para navegar en por los distintos apartado de la explicacion.
 
-1. [¿Que es la Arquitectura Serverless?](https://github.com/alanro21/Arquitectura-Serverless/blob/main/README.md#que-es-la-arquitectura-serverless)
+1. [¿Que es la Arquitectura Serverless?](que-es-la-arquitectura-serverless)
 2. [Características principales](#Caracteristicas-Principales) 
 3. [Ventajas y Desventajas](#Ventajas-y-Desventajas) 
 4. [¿Que son las FaaS y BaaS dentro de la Arquitectura Serverless](#¿Que-son-las-Faas-y-Baas-dentro-de-la-Arquitectura-Serverless)
