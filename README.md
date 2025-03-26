@@ -124,12 +124,7 @@ Para la creacion de la aplicacion web usamos las siguientes tecnologias:
 Video Demostrativo:
 
  - 🎥 Ver video de demostración
-<p align="center">
-  <a href="https://www.youtube.com/watch?v=_6IrMyfibI0" target="_blank">
-    <img src="https://img.youtube.com/vi/_6IrMyfibI0/0.jpg" alt="Ver en YouTube" width="400">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/2/28/YouTube_play_button.png" alt="Play" width="80" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);">
-  </a>
-</p>
+[🎥 Ver video de demostración]([https://www.youtube.com/watch?v=TuVideoID](https://youtu.be/_6IrMyfibI0))
 
 
 
