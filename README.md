@@ -1,25 +1,25 @@
-# Arquitectura-Serverless
+# Arquitectura Serverless
 
 <p align="center">
   <img src="imagen/Fondo.png" width="500">
 </p>
 
-## Introduccion
+## Introducción
 En este espacio les contaré qué es la Arquitectura Serverless, sus características principales y cómo se aplicó en nuestro trabajo de investigación. Exploraremos sus ventajas, casos de uso y las conclusiones obtenidas a partir de nuestra experiencia.
 
-## Indice de contenidos
-En este apartado, se visualizara la estructura del tema a abordar. Este indice servira como guia para navegar en por los distintos apartado de la explicacion.
+## Índice de contenidos
+En este apartado, se visualizará la estructura del tema a abordar. Este índice servirá como guía para navegar por los distintos apartados de la explicación.
 
-1. [¿Que es la Arquitectura Serverless?](#Que-es-la-Arquitectura-Serverless)
+1. [¿Qué es la Arquitectura Serverless?](#Que-es-la-Arquitectura-Serverless)
 2. [Características principales](#Caracteristicas-Principales) 
 3. [Ventajas y Desventajas](#Ventajas-y-Desventajas) 
-4. [¿Que son las FaaS y BaaS dentro de la Arquitectura Serverless](#¿Que-son-las-Faas-y-Baas-dentro-de-la-Arquitectura-Serverless)
-5. [Usos mas comunes](#Usos-mas-comunes)
+4. [¿Qué son las FaaS y BaaS dentro de la Arquitectura Serverless?](#¿Que-son-las-Faas-y-Baas-dentro-de-la-Arquitectura-Serverless)
+5. [Usos más comunes](#Usos-mas-comunes)
 6. [Proveedores de Arquitectura Serverless](#Proveedores-de-Arquitectura-Serverless)
 7. [Aplicacion en el proyecto de investigacion](#Aplicacion-en-el-proyecto-de-investigacion)
 8. [Glosario](#Glosario)
 
-## ¿Que es la Arquitectura Serverless?
+## ¿Qué es la Arquitectura Serverless?
 La Aquitectura Serverless es una computacion sin servidore (Serverless) un modelo de ejecucion en el que el proveedor en la nube es el responsable de ejecutar
 un frgamento de codigo. El codigo se ejecuta dentro de contenedores sin estado puede ser activados por una variedad de eventos que incluyen solicitudes HTTP [solicitudes HTTP](#Glosario), base de datos,
 servicios de colas, alertas de monitoreo, carga de archivos y eventos programados. El codigo que se envia al proveedor en la nube para la ejecucion es generalmete en forma de funcion.
@@ -51,7 +51,7 @@ Desventajas:
   especificas.
 * Procupaciones de Seguridad: Procupacion por la privacidad de los datos que se alojan en la nube de terceros. Esto aumenta el riesgo de seguridad cerbernetica.
  
-## ¿Que son las FaaS y BaaS dentro de la Arquitectura Serverless?
+## ¿Qué son las FaaS y BaaS dentro de la Arquitectura Serverless?
 Son dos tipos de servicios que utilizan la computacion sin servidor:
 * FaaS(Functions as a Service - Funcion como Servicio): El modelo se basa en la tecnologias y arquitecuras informaticas sin servidores que permiten a los desarrolladores de software 
   implementar facilmente aplicaciones en la nube sin tener que administar servidores.
@@ -61,7 +61,7 @@ Son dos tipos de servicios que utilizan la computacion sin servidor:
   Administracion de base de datos, Actualizacion remota y Notifiacionses push, Almacenamiento y Alojamiento en la nube.
 
    
-## Usos mas comunes
+## Usos más comunes
 La tecnologia serverless es ideal para microservicios, backend moviles, procesamiento de eventos y flujo de datos. Su uso mas comunes son:
 
 1. Aplicaciones web o API backends: Esta orientado a la ejecucion de eventos, como por ejemplo en una aplicacion de tareas donde los usuarios pueden crear, actualizar ver y eliminar 
