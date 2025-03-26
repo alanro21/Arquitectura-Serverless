@@ -1,7 +1,7 @@
 # Arquitectura Serverless
 
 <p align="center">
-  <img src="imagen/Fondo.png" width="400">
+  <img src="imagen/InterfazGrafica.png" width="500">
 </p>
 
 ## Introducción
@@ -123,11 +123,21 @@ Para la creación de la aplicación web usamos las siguientes tecnologías:
   <img src="imagen/CloudFunctions.png" width="600">
 </p>
 
-Video demostrativo:
+Conclusion grupal y posibles mejoras:
+ * El acercamiento a las tecnologías cloud fue más duro de lo que pensábamos, nos queda la experiencia de tener un primer acercamiento, por lo que si en el futuro tenemos que utilizar 
+   nuevamente estas tecnologías (y de seguro sucederá), ya contamos con un camino recorrido, el cual nos dio una pequeña pero valiosa experiencia en el mundo cloud.
+   
+ * Las posibles mejoras que podríamos implementar a futuro son:
+    - Mejorar el estilo de la página, ya que preferimos enfocarnos en la funcionalidad y no tanto en el diseño.
+    - Configurar un ABM de usuarios, ya que actualmente solamente se puede realizar la acción de dar de alta un usuario.
+    - Poder guardar los datos en una BBDD en la nube.
+    - Poder realizar las acciones de ABM de usuarios utilizando Cloud Functions y que se guarden los datos en la BBDD en la nube.
 
- - [🎥 Ver video de demostración](https://youtu.be/_6IrMyfibI0)
+Links Importantes:
 
+ - 🎥 [Video de demostración del proyecto](https://youtu.be/_6IrMyfibI0)
 
+ - 📄 [Carpeta de desalojo del código](https://github.com/alanro21/Arquitectura-Serverless/tree/main/ProyectodeInvestigacionArquitecturaServerless)
 
 ## Glosario
 
