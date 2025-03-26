@@ -124,12 +124,11 @@ Para la creación de la aplicación web usamos las siguientes tecnologías:
 </p>
 
 Conclusion grupal y posibles mejoras:
- * Si bien el acercamiento a las tecnologías cloud fue más duro de lo que pensábamos, nos queda la experiencia de ya tener un primer acercamiento con estas de estudiarlas y si bien 
-   hicimos algo simple, utilizarlas. Por lo que si en el futuro tenemos que utilizar nuevamente estas tecnologías (y de seguro sucederá), ya
-   contaremos con un camino recorrido, el cual nos dio una pequeña pero valiosa experiencia en el mundo cloud.
+ * El acercamiento a las tecnologías cloud fue más duro de lo que pensábamos, nos queda la experiencia de tener un primer acercamiento, por lo que si en el futuro tenemos que utilizar 
+   nuevamente estas tecnologías (y de seguro sucederá), ya contamos con un camino recorrido, el cual nos dio una pequeña pero valiosa experiencia en el mundo cloud.
    
  * Las posibles mejoras que podríamos implementar a futuro son:
-    - Mejorar el estilo de la página ya que preferimos enfocarnos en la funcionalidad y no tanto en el diseño.
+    - Mejorar el estilo de la página, ya que preferimos enfocarnos en la funcionalidad y no tanto en el diseño.
     - Configurar un ABM de usuarios, ya que actualmente solamente se puede realizar la acción de dar de alta un usuario.
     - Poder guardar los datos en una BBDD en la nube.
     - Poder realizar las acciones de ABM de usuarios utilizando Cloud Functions y que se guarden los datos en la BBDD en la nube.
