@@ -123,8 +123,7 @@ Para la creacion de la aplicacion web usamos las siguientes tecnologias:
 
 Video Demostrativo:
 
- - 🎥 Ver video de demostración
-[🎥 Ver video de demostración](https://youtu.be/_6IrMyfibI0)
+ - [🎥 Ver video de demostración](https://youtu.be/_6IrMyfibI0)
 
 
 
