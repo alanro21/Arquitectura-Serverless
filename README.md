@@ -127,7 +127,7 @@ Links Importantes:
 
  - 🎥 [ Ver video de demostración del proyecto](https://youtu.be/_6IrMyfibI0)
 
- - 📄 [Carpeta de desalojo del código](https://www.ejemplo.com/docs)
+ - 📄 [Carpeta de desalojo del código](https://github.com/alanro21/Arquitectura-Serverless/tree/main/ProyectodeInvestigacionArquitecturaServerless)
 
 ## Glosario
 
