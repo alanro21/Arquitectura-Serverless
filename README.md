@@ -74,23 +74,26 @@ Los siguientes proveedores que utilizan Arquitectura Serverless son:
 
 * AWS Lambda: Permite ejecutar código automáticamente en respuesta a eventos generados por otros servicios de AWS (como [S3](#Glosario), [DynamoDB](#Glosario) o [API Gateway](#Glosario)) o eventos personalizados, se cobra 
   únicamente por el tiempo de ejecución y la cantidad de invocaciones, eliminando costos fijos asociados a servidores tradicionales, admite varios lenguajes de programación, como
-  Python, Node.js, Java, Go y Ruby, entre otros, funciona de manera eficiente con servicios como S3, DynamoDB, API Gateway, SNS y Kinesis, permitiendo construir arquitecturas altamente 
-  distribuidas y escalables.
+  Python, Node.js, Java, Go y Ruby, entre otros, funciona de manera eficiente con servicios como S3, DynamoDB, [API Gateway](#Glosario), [SNS](#Glosario) y [Kinesis](#Glosario), 
+  permitiendo construir arquitecturas altamente distribuidas y escalables.
   
-* Google Cloud: Permite respuesta a eventos de Google Cloud (como cambios en Cloud Storage, mensajes en Pub/Sub o solicitudes HTTP) o eventos personalizados, ejecucion basada en 
+* Google Cloud: Permite respuesta a eventos de Google Cloud (como cambios en [Cloud Storage](#Glosario), mensajes en [Pub/Sub](#Glosario) o [solicitudes HTTP](#Glosario)) o eventos 
+  personalizados, ejecucion basada en 
   eventos, admite JavaScript (Node.js), Python, Go, Java, .NET y Ruby, funciona con Firebase, BigQuery, Cloud Storage, Firestore y Pub/Sub, entre otros, 
   facilitando arquitecturas distribuidas.
      
 * Azure Functions: Proporcionado por Microsoft Azure. Permite ejecutar código en respuesta a eventos sin necesidad de administrar servidores, facilitando la creación de aplicaciones 
-  escalables y optimizadas en costos, se activa en respuesta a eventos generados por otros servicios de Azure (como Blob Storage, Event Grid, Cosmos DB) o mediante solicitudes HTTP, 
+  escalables y optimizadas en costos, se activa en respuesta a eventos generados por otros servicios de Azure (como [Blob Storage](#Glosario), [Event Grid](#Glosario), [Cosmos DB](#Glosario)) o mediante solicitudes HTTP, 
   soporta varios lenguajes de programación, incluyendo C#, JavaScript, Python, Java, TypeScript y PowerShell, funciona de manera nativa con otros servicios como Azure Storage, Service 
   Bus, Event Hubs y Logic Apps, facilitando arquitecturas serverless completas y permite desarrollar y probar funciones en entornos locales antes de desplegarlas en la nube.
 
-* IBM Openwhisk: Código abierto desarrollada por IBM. OpenWhisk se basa en Apache OpenWhisk y está diseñado para integrarse con múltiples servicios en la nube, facilitando el 
-  desarrollo de aplicaciones escalables y event-driven, tambien permite desencadenar la ejecución de funciones en respuesta a eventos provenientes de diversas fuentes, como bases de 
+* IBM Openwhisk: Código abierto desarrollada por IBM. [OpenWhisk](#Glosario) se basa en Apache OpenWhisk y está diseñado para integrarse con múltiples servicios en la nube, facilitando 
+  el 
+  desarrollo de aplicaciones escalables y [event-driven](#Glosario), tambien permite desencadenar la ejecución de funciones en respuesta a eventos provenientes de diversas fuentes, 
+  como bases de 
   datos, colas de mensajes o peticiones HTTP, al estar basado en Apache OpenWhisk, los desarrolladores pueden personalizar y extender sus funcionalidades según sus necesidades. 
-  Soporta lenguajes como JavaScript (Node.js), Python, Swift, PHP, Ruby y Java, brindando flexibilidad a los desarrolladores y se conecta con servicios como IBM Cloud Functions, IBM 
-  Watson, IBM Cloudant y otras soluciones en la nube.  
+  Soporta lenguajes como JavaScript (Node.js), Python, Swift, PHP, Ruby y Java, brindando flexibilidad a los desarrolladores y se conecta con servicios como [IBM Cloud](#Glosario) 
+  [Functions](#Glosario), [IBM Watson](#Glosario), [IBM Cloudant](#Glosario) y otras soluciones en la nube.  
 
 ## Aplicación en el proyecto de investigacion
 Este proyecto de investigación fue hecho en la Universidad Nacional del Oeste, junto con mis compañeros Leones Nicolás, Cruz Brian, Juárez Alex Contreras, en la carrera Licenciatura en Informática, materia Interfaz de Usuario y Tecnología Web. El proveedor para realizar este proyecto de investigación es Google Cloud, ya que una de las funciones que nos daba fácilmente es poder trabajar en grupo de forma eficiente.
@@ -114,7 +117,7 @@ Para la creación de la aplicación web usamos las siguientes tecnologías:
   <img src="imagen/Basededatos.png" width="450" style="display: inline-block;">
 </p>
 
-3. Uso de la Arquitectura Serverless (Google Cloud): Utilizamos de Google Cloud específicamente Cloud Functions, para actuar como intermediario en la visualización de acceso (registros en la página web) y en la supervisión de los datos que se almacenan en la base de datos. Para cumplir con esta función, Cloud Functions proporciona un URL que se integra en el código Python. Durante la ejecución, cuando se realiza una acción de registro, se envía un mensaje HTTP a Cloud Functions, respondiendo a este evento y registrándolo para poder visualizar qué evento se realizó. 
+3. Uso de la Arquitectura Serverless (Google Cloud): Utilizamos de Google Cloud específicamente [Cloud Functions](#Glosario), para actuar como intermediario en la visualización de acceso (registros en la página web) y en la supervisión de los datos que se almacenan en la base de datos. Para cumplir con esta función, Cloud Functions proporciona un URL que se integra en el código Python. Durante la ejecución, cuando se realiza una acción de registro, se envía un mensaje HTTP a Cloud Functions, respondiendo a este evento y registrándolo para poder visualizar qué evento se realizó. 
 
   <p align="center">
   <img src="imagen/CloudFunctions.png" width="600">
@@ -172,6 +175,23 @@ Video demostrativo:
 
 * Cloud Functions: Es un servicio de computación sin servidor (serverless) proporcionado por Google Cloud que permite ejecutar funciones de código en respuesta a eventos, como cambios 
   en bases de datos, solicitudes HTTP, o mensajes en una cola de Pub/Sub, sin necesidad de administrar servidores.
+
+* Blob Storage: Es un servicio de almacenamiento de objetos en la nube de Microsoft Azure. Está diseñado para almacenar grandes cantidades de datos no estructurados, como imágenes, 
+  videos, audios y otros archivos.
+  
+* Event Grid: Es un servicio de gestión de eventos que permite la creación de aplicaciones basadas en eventos mediante la integración con otros servicios de Azure.
+  
+* Cosmos DB: Es una base de datos NoSQL distribuida globalmente de Microsoft Azure. Ofrece baja latencia, escalabilidad horizontal, y alta disponibilidad, diseñada para aplicaciones 
+  que requieren rendimiento en tiempo real y gran volumen de datos.
+  
+* Azure Storage: Es un conjunto de servicios de almacenamiento en la nube de Microsoft Azure. Ofrece almacenamiento de blobs, archivos, colas y discos, adecuados para una variedad de 
+  aplicaciones.
+  
+* Service Bus: Es un servicio de mensajería en la nube que facilita la comunicación entre aplicaciones y servicios distribuidos.
+  
+* Event Hubs: Es una plataforma de ingesta de eventos de alta capacidad que permite recibir y procesar millones de eventos por segundo.
+ 
+* Logic Apps: Es un servicio de automatización de flujos de trabajo en la nube que permite a los desarrolladores integrar aplicaciones y servicios de manera visual.
     
 * OpenWhisk: Es una plataforma de computación sin servidor (serverless) de código abierto que permite ejecutar funciones en la nube de manera automática en respuesta a eventos. Fue 
   desarrollada inicialmente por IBM, pero ahora está disponible como un proyecto de código abierto, lo que permite que cualquier persona lo use y lo personalice.
